@@ -10,7 +10,7 @@
 <body>
 	Sconosciuto!
 	<% Persona personaProvieneDaServlet = (Persona)request.getAttribute("personaAttribute"); %>
-	<%= "Il nome appena inserito e\': " + personaProvieneDaServlet.getNome() + personaProvieneDaServlet.getCognome()%> <br>
+	<%= "Il nome e cognome appena inserito e\': " + personaProvieneDaServlet.getNome() + " "+ personaProvieneDaServlet.getCognome()%> <br>
 	<a href="index.jsp">Home</a>
 </body>
 </html>

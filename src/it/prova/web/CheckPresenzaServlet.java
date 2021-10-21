@@ -28,7 +28,7 @@ public class CheckPresenzaServlet extends HttpServlet {
 		if (persona.getNome().equals(personaAccesso.getNome())
 				&& persona.getCognome().equals(personaAccesso.getCognome())) {
 			
-			request.setAttribute("personaAttribute: ", persona);
+			request.setAttribute("personaAttribute", persona);
 			
 			RequestDispatcher rd = request.getRequestDispatcher("riconosciuto.jsp");
 			rd.forward(request, response);
