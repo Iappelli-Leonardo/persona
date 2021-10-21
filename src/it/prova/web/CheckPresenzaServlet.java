@@ -1,4 +1,4 @@
-package it.prova.web.servlet;
+package it.prova.web;
 
 import java.io.IOException;
 
